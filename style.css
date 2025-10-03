@@ -1,0 +1,257 @@
+@font-face {
+    font-family: hello;
+    src: url(./Satoshi-Variable.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hello;
+
+}
+html,body{
+
+    height: 100%;
+    width: 100%;
+
+}
+.main{
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    width: 100%;
+    height: 91%;
+    background: linear-gradient( to right,
+    #b0d0dd 0%,
+    #dbe4e5 40%,
+    #f1ddcf 75%,
+    #f9e6d7 100%);
+   
+}
+.footer{
+    width: 100%;
+    height: 9%;
+    background-color: rgb(29, 42, 46);
+}
+
+.nav{
+ 
+    height: 8%;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+}
+.nav>img{
+    height: 50px;
+}
+.play img{
+    height: 20px;
+    margin-left: 0.8rem;
+}
+.play{
+    display: flex;
+    align-items: center;
+    border: 1.2px solid black;
+    border-radius: 10px;
+    padding: 0.8% 4%;
+}
+
+.nav ul a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1.4rem;
+    color: rgb(20, 20, 20);
+}
+
+
+
+.word{
+    width: 35%;
+    margin-top: 10%;
+    margin-left: 16%;
+    
+    z-index: 1;
+   line-height: 6rem;
+}
+.word h1{
+    font-size: 5.56rem;
+
+}
+
+.othre img{
+    height: 550px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.b-all{
+    position: absolute;
+    z-index: 1;
+}
+.kes{
+    z-index: 0;
+    position: absolute;
+     z-index: 1;
+}
+#your{
+     position: absolute;
+     z-index: 1;
+}
+#mukh{
+    margin-left: 7rem;
+}
+
+.card{
+    height: 35%;
+    width: 10%;
+    background-color: rgb(222, 218, 215);
+    position: absolute;
+    top: 50%;
+   right: 10%;
+   border-radius: 5px;
+   
+}
+.card img{
+    height: 140px;
+    margin-left: 0.5rem;
+}
+.card>h1{
+    margin-left: 1.8rem;
+   margin-top: -2rem;
+    font-size: 3rem;
+}
+.card #one{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.card #two{
+    margin-left: 0.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.star{
+    display: flex;
+
+}
+.star {
+   position: absolute;
+   top: 24%;
+   left: 17%;
+}
+#star{
+    font-size: 42px;
+    color: yellow;
+}
+.images>img{
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 15%;
+   
+   
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 7%;
+}
+.ima-one{
+    margin-left: 0.2rem;
+}
+.ima-two{
+    margin-right: 2rem;
+}
+.ima-three{
+    margin-left:-2.2rem;
+}
+.ima-four{
+    margin-left: 0.1rem;
+}
+.ima-five{
+    margin-left: 0.2rem;
+}
+.images>h2{
+    margin-left: 0.6rem;
+    font-size: 1.9rem;
+}
+
+button{
+    width: 100%;
+    padding: 5% 7%;
+    border-radius: 5px;
+}
+.inner{
+    width: 200px;
+
+}
+.abcd{
+    position: absolute;
+    left: 55%;
+    z-index: 2;
+    top: 33%;
+    background-color: green;
+    text-align: center;
+}
+.efgh{
+    position: absolute;
+    left: 35%;
+    z-index: 2;
+    top: 22%;
+    text-align: center;
+}
+
+.efgh h4{
+  
+    font-size: 0.7rem;
+    top:8px ;
+    position: absolute;
+    width: 150px;
+}
+.efgh img{
+    height: 40px;
+ left: 8rem;
+position: absolute;
+z-index: 2;
+}
+
+.abcd h4{
+   
+    font-size: 0.7rem;
+    top:8px ;
+    position: absolute;
+    width: 150px;
+}
+.abcd img{
+    height: 40px;
+ left: 8rem;
+position: absolute;
+z-index: 2;
+}
+#flip{
+    
+  margin-left: -10rem;
+    transform: scaleX(-1);
+}
+#rjw{
+    position: absolute;
+    z-index: 1;
+}
+.images h2{
+    color: white;
+}
+
+
