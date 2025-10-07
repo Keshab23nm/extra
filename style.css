@@ -1,274 +1,462 @@
 @font-face {
-    font-family: hello;
-    src: url(./sf-pro-text_bold\ \(1\).woff2);
+    font-family:moch;
+    src: url(./Mona-Sans-870dff5a10221ba7d01cc47eca10d0b2f911bd4196bb941985490bd8c7363cd9.woff2);
 }
-
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: hello;
+    font-family: moch;
 }
+html,body{
 
-body,html{
     width: 100%;
     height: 100%;
 }
+
 .main{
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
+
+/*nav part start hear?>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .nav{
-    height: 6.5%;
-    background-color: rgba(250, 250, 252, 0.978);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    position: fixed;
-    top: 0;
+    height: 15%;
 
-}
-.nav a{
-    text-decoration: none;
-    color: black;
-    font-size: 0.85rem;
-    font-weight: 300;
-}
-
-#logo{
-    font-size: 1.2rem;
-}
-.container{
-    height: 80%;
     width: 100%;
-    background-color: aqua;
-    margin-top: 3rem;
-    text-align: center;
-    padding: 24px 20px;
-    background-image: url(./iphone.jpg);
-    background-size: cover;
-    background-position: center;
-   
-}
-
-.mid{
-     height: 80%;
-    width: 100%;
-    background-color: aqua;
-    margin-top: 10px;
-    text-align: center;
-    padding: 24px 20px;
-    background-image: url(./iphone3.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.mid-one{
-      height: 80%;
-    width: 100%;
-   
-     margin-top: 10px;
-     display: flex;
-     padding-left: 10px;
-     padding-right: 10px;
-     gap: 10px;
-}
-.mid-two{
-      height: 80%;
-    width: 100%;
-   
-     margin-top: 10px;
-     display: flex;
-     padding-left: 10px;
-     padding-right: 10px;
-     gap: 10px;
-}
-.third{
-      width: 50%;
-    height: 100%;
-    background-color: rgba(0, 0, 255, 0.205);
-    background-image: url(./watchs.jpg);
-background-size: cover;
-background-position: center;
- text-align: center;
-     padding: 30px 20px;
-}
-
-.forth{
-          width: 50%;
-    height: 100%;
-    background-color: rgb(198, 19, 144);
-    background-image: url(./watches.jpg);
-    background-size: cover;
-background-position: center;
-display: flex;
-align-items: flex-end;
-
-}
-.mid-one .five{
-    background-image: url(./watchultra.jpg);
+    /* background-color: black; */
     color: white;
-}
-.mid-one .six{
-    background-image: url(./iphons.jpg);
-}
-
-.alll{
-    height: 20%;
-    width: 100%;
-   
     display: flex;
     align-items: center;
-    flex-direction: column;
-    margin-bottom: 3rem;
-}
-
-
-.first{
-    width: 50%;
-    height: 100%;
-    background-color: rgba(0, 0, 255, 0.205);
-    background-image: url(./iphone2.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-     padding: 30px 20px;
-}
-.second{
-        width: 50%;
-    height: 100%;
-    background-color: rgb(198, 19, 144);
-    background-image: url(./airpods.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 30px 20px;
-}
-
-
-.mid-two{
-        height: 80%;
-    width: 100%;
-  
-}
-.third h1{
-    font-size:2.4rem ;
-}
-.third>p{
-      font-size: 1.2rem;
-      font-weight: 200;
-}
-.forth h1{
-    font-size:2.4rem ;
-}
-.forth p{
-font-size: 1.2rem;
-font-weight: 200;
-}
-.first h1{
- font-size:2.4rem ;
-}
-.first p{
-    font-size: 1.2rem;
-    font-weight: 200;
-}
-.second h1{
-    font-size:2.4rem ;
-}
-.second p{
-    font-size: 1.2rem;
-    font-weight: 200;
-
-}
-
-
-
-.mid h1{
-    font-size: 2.8rem;
-    color: rgb(6, 6, 6);
-}
-.mid p{
-    font-size: 1.5rem;
-    color: rgb(10, 10, 10);
-    font-weight: lighter;
+    justify-content: space-around;
     
 }
-.liunks .kes{
-    background-color: white;
-    color: rgb(39, 68, 234);
+
+
+.logo{
+  height: 50%;
+  width: 40%;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+
+  margin-left: -14rem;
 }
-.container h1{
-    font-size: 3rem;
-    color: white;
+
+.logo-one{
+  height: 100%;
+  width: 20%;
+
+
 }
-.container p{
-    font-size: 1.8rem;
-    color: white;
-}
-.liunks{
-    padding: 24px 10px;
+.elem{
     gap: 2rem;
+}
+.elem a{
+    font-size: 1rem;
+     margin-left: 1rem;
+     text-decoration: none;
+     color: black;
+     font-weight: 500;
+}
+
+.logo-one img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    rotate: 355deg;
+    
+}
+
+.login{
+    height: 50%;
+    width: 15%;
+    /* background-color: aquamarine; */
+    margin-right: -14rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.login button{
+    padding: 15px 27px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius:50px;
+    border: none;
+    background-color: transparent;
+
+}
+
+.login button:hover{
+    color:rgb(80, 80, 80);
+}
+.login .btn{
+    background-color: black;
+    color: white;
+}
+ .login .btn:hover{
+    background-color: rgba(82, 81, 81, 0.89);
+    color: white;
+    transition: all ease 0.5s;
+ }
+
+ /* container start  hear */
+
+.container{
+    height: 85%;
+    width: 100%;
+    /* background-color: aqua; */
+   padding: 1px 85px;
+}
+
+.container-one{
+    height: 85%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    gap: 1rem;
+}
+
+.con-one{
+    height: 100%;
+    width: 50%;
+    /* background-color: antiquewhite; */
+}
+.con-text{
+    height: 35%;
+    width: 65%;
+    /* background-color: rgb(102, 0, 255); */
+}
+
+.con-text h1{
+    font-size:3.6rem;
+    font-weight: 560;
+    line-height: 3.5rem;
+}
+
+.con-para{
+    width: 70%;
+    height: 12%;
+    /* background-color: blueviolet; */
+}
+.con-para p{
+    font-size: 1.1rem;
+}
+.photos{
+    height: 14%;
+    width: 60%;
+    /* background-color: rgb(34, 162, 201); */
+    display: flex;
+    align-items: flex-end;
+}
+.photos button{
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 500;
+    background-color: transparent;
+}
+.photos button i{
+    font-size: 1.4rem;
+}
+#btn-col{
+    background-color:rgb(58, 53, 70);
+    color: white;
+}
+.search{
+    margin-top: 0.2rem;
+    height: 13%;
+    width: 85%;
+    background-color: rgb(243, 243, 246);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+    
+}
+.search input{
+    height: 60%;
+    width: 80%;
+    border: none;
+    margin-left: 1.5rem;
+    outline: none;
+    background-color: transparent;
+}
+.search input::placeholder{
+    font-size: 1rem;
+}
+.ser{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(230, 0, 255);
+    border-radius: 50%;
+    margin-left: 2.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-button{
-
-    padding: 13px 26px;
-    border-radius: 25px;
-    background-color: blue;
-    font-size: 1rem;
-    font-weight: 400;
-    border: none;
+.ser i{
+    font-size: 1.2rem;
     color: white;
 }
-.buy{
-    background-color: black;
-    border: 1px solid blue;
-}
-.btn{
-    padding: 8px 18px;
-    border-radius: 25px;
-    font-weight: 200;
-     
-}
-.btnn{
-     padding: 8px 18px;
-    border-radius: 25px;
-    background-color: white;
-    color: blue;
-}
-.yess{
-    background-color: black;
-    color: blue;
-}
-
-.buy:hover{
-background-color: blue;
- color: white;
-}
-.abcd{
-    margin-top: 1.5rem;
-    font-weight: lighter;
-    font-size: 1.5rem;
-}
-
-
-
-.logo-mid{
-    height: 10%;
-    width: 100%;
-   
+.con-populer{
+    height: 14%;
+    width: 80%;
+    /* background-color: green; */
     display: flex;
     align-items: center;
+    gap: 0.5rem;
+
+}
+.con-populer button{
+   height: 50%;
+   width: 25%;
+   border-radius: 20px;
+   border: none;
+   background-color: transparent;
+   border: 2px solid rgba(55, 55, 55, 0.863);
+}
+.con-populer #boder-no{
+border: none;
+font-size: 1rem;
+font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-two{
+      height: 100%;
+    width: 50%;
+    /* background-color: rgba(181, 228, 92, 0.893); */
+    border-radius: 30px;
+    overflow: hidden;
+}
+.con-two video{
+    height: 100%;
+    width: 100%;
+  object-fit: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conatiner-two{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(248, 248, 252);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.container-two-one{
+height: 60%;
+width: 17%;
+background-color: rgb(255, 255, 255);
+border-radius: 25px;
+display: flex;
+align-items: center;
+margin-left: 1rem;
+}
+.container-two-one h3{
+ font-size: 1rem;
+ margin-left: 0.8rem;
+}
+.container-two-one i{
+color: rgb(149, 107, 205);
+margin-left: 0.8rem;
+font-size: 1.5rem;
+}
+
+
+
+/* other  section srtart  hear*/
+
+.mid-div{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 15px  80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.main-card{
+    height: 45%;
+    width: 24%;
+    /* background-color: blue; */
+}
+
+.main-card .card-img{
+    height: 82%;
+    width: 100%;
+    background-color: rgb(195, 149, 238);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+      
+    
+}
+.card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-bottom{
+    width: 100%;
+    height: 25%;
+     background: linear-gradient(transparent,rgba(0, 0, 0, 0.585));
+     /* background-color: black; */
+    position: absolute;
+    bottom: -25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-bottom h1{
+    color: white;
+    font-size: 1.1rem;
+   
+}
+.bookmark{
+    height: 80%;
+    width: 32%;
+    /* background-color: rgb(9, 255, 0); */
+display: flex;
+gap: 0.2rem;
+
+
+}
+.bookmark .book-one{
+width: 50px;
+height: 50px;
+background-color: rgb(249, 249, 249);
+border-radius: 50%;
+display: flex;
+align-items: center;
 justify-content: center;
-
+font-size: 1.4rem;
 }
-.logo-mid .allapple #logo4{
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
+.bookmark .book-two{
+    width: 50px;
+height: 50px;
+background-color: rgb(245, 245, 245);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.4rem;
 }
 
+
+.bookmark i{
+    color: rgb(20, 19, 19);
+    display: flex;
+  
+}
+
+
+
+
+.card-img:hover .card-bottom{
+ bottom: 0;
+ transition: all ease 0.5s;
+}
+
+/* .card-img:hover img{
+    rotate: 40deg;
+} */
+
+.card-img video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-card-down{
+    height: 18%;
+    width: 100%;
+    /* background-color: rgba(0, 255, 17, 0.584); */
+}
+
+.down-one{
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(255, 196, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.down-one img{
+    height: 27px ;
+    width: 27px;
+    border-radius: 50%;
+}
+.down-one h1{
+   font-size: 1rem;
+   font-weight: 500;
+}
+.down-one .pro{
+    height: 55%;
+    width: 12%;
+    background-color: rgb(98, 98, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    font-weight: 200;
+    color: white;
+}
+.pro h3{
+    margin-top: -0.2rem;
+
+    font-weight: 400;
+}
+.pro:hover{
+    background-color: black;
+    color: white;
+}
+
+.down-one i{
+color: rgb(158, 158, 167);
+}
